@@ -1,0 +1,106 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.first{
+  background-image: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  line-height: 100px;
+
+}
+
+.header{
+  width: 100%;
+  height: 200px;
+  padding: 25px 25px;
+  /*padding: 25px;*/
+  /*display: flex;*/
+
+}
+
+.logo{
+  /*background-color: green;*/
+background-image: url(http://wideopentech.com/themes/wot-2013-gm/_/img/wot-logo-whitex2.svg);
+background-repeat: no-repeat;
+height: 100px;
+width:200px;
+float: left;
+}
+
+.nav {
+float: right;
+}
+
+.nav a{
+  text-decoration: none;
+  color: #f0f0f0;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.navspace{
+  margin-left: 20px;
+}
+
+.little{
+  font-size: 32px;
+  text-transform: uppercase;
+  color: #f0f0f0;
+  font-weight: 500;
+  margin-left: -460px;
+  margin-bottom: -20px
+}
+
+.big{
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  font-size: 120px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.smallest{
+  font-size: 20px;
+  color: #fff;
+  font-weight: 500;
+  margin-top: -10px
+}
+
+.thickline{
+  width: 10px;
+  height: 10px;
+  border: 1px solid red;
+  background-color: #fff;
+}
+
+.solution{
+  color: #ff803a;
+}
+
+.ideas{
+  color: #bdd436;
+}
+
+.btn{
+  text-decoration: none;
+  background-color: #bdd436;
+  border: 2px solid #bdd436;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 25px;
+  padding: 11px 36px;
+}
